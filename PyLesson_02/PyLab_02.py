@@ -1,6 +1,6 @@
 a=4
 b=6
-print("4 multiplied by 6 is",a*b)
+print(a, "multiplied by" ,b,"is",a*b)
 
 Name="Bruce Wayne"
 Address="1234 Arkham Way"
@@ -13,5 +13,5 @@ print(City, Zip)
 l=54
 w=6
 h=2
-recArea=l*w*h
+recArea=2*(w*l+h*l+h*w)
 print("The surface area of your rectangle is",recArea)
