@@ -1,0 +1,19 @@
+Functions=Organize programs into smaller blocks of code with more specialized tasks
+Creating a function=defining a function
+	def functionName()
+	# function components are tabbed in
+Parameters
+-Allow performing of same function over and over again with different input data
+	def functionName(<parameters>):
+	#statement1
+	#statement2,etc...
+Calling a Function
+-Call a function by its name, a set of parentheses, and any data we are adding in as
+parameters
+
+Using Functions
+-use "def" to start a function, followed by a name, a set of parentheses, and a colon
+-put text inside parentheses, and BELOW the function, define the variables in the 
+function itself
+-define variables a second, third, etc time to create different outputs from the same
+function.

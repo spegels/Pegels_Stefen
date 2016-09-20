@@ -1,0 +1,23 @@
+Programming Lesson 1 Notes
+
+Stefen Pegels Period 3 Robinette
+
+Compiler:Translates all code before running program- slower to load, but ensures program will run correctly
+beforehand
+
+Interpreter: Translates code while program is being run-increased risk of failure, but faster
+
+Python: Contains a mixture of both a compiler and an interpreter
+
+Bytecode: Intermediate between source code and processor
+
+Python: Takes compiled data and turns it into bytecode, and the interpreter runs the bytecode to run the
+program
+
+Creating a Python doc: "New text doc", rename with .py
+
+Process: print("STATEMENT")->Run(F5), save source code
+
+"\" separates characters that have a separate meaning when side by side (ex: "")
+
+ASCII art: Art made with printed code using characters

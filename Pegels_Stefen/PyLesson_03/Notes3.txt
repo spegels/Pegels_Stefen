@@ -1,0 +1,25 @@
+Identifier with 2 or more words:Uppercase second word (firstName) or use an
+underscore (first_name)
+
+Functions: Define program behavior
+-functionName() is a "call" function
+
+Input function: Enter prompt into "input()"
+ex: variableName=input("Good Morning")
+---Value of "variableName" is equal to the value from the input.
+
+Casting: Wrap desired data into a casting statement
+ex: dataType(dataValue)
+
+Ex: num=int(input("please enter an integer"))
+    num2=int(input("please enter an integer"))
+
+    print(num, "multiplied by" ,num2, "is" ,num*num2, ".")
+
+
+just using num=input(...) will not work, as input data is string by default,
+it must be converted into numerical data.
+Input only takes text data, so numerical operations can't occur
+
+Use the int() function to convert the data in the input into an integer,
+enabling numerical operations
