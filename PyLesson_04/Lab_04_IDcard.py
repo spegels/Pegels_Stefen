@@ -1,9 +1,15 @@
+<<<<<<< HEAD
+=======
+print("******************************")
+
+>>>>>>> origin/master
 def idcard(item1,item2):
     print("*{:^15}{:^15}*".format(item1,item2))
 
 item1=input("What organization are you affiliated with?")
 item2=input("What years were you affiliated with said organization?")
 
+<<<<<<< HEAD
 item3=input("Enter your title:")
 item4=input("Enter subject taught/duty:")
 
@@ -20,5 +26,7 @@ print("********************************")
 
 
 
+=======
+>>>>>>> origin/master
 
     
