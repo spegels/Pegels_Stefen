@@ -1,3 +1,4 @@
+Lesson_04
 Functions=Organize programs into smaller blocks of code with more specialized tasks
 Creating a function=defining a function
 	def functionName()
@@ -17,3 +18,20 @@ Using Functions
 function itself
 -define variables a second, third, etc time to create different outputs from the same
 function.
+
+
+Variable Scope(4.2)
+scope of a variable=areas of the program where the variable is usable(callable)
+-which statements/functions are able to use the variable
+-If declaring a function, code statements for that function must be indented underneath
+EX: def method1():
+	var2=47
+    def method2():
+	var3=89.1
+-method2 is out of the scope of var2
+Global Variables
+-Declared at top of a program, and therefeore can be used anywhere within it(no scope)
+-Declared before any functions; no indents
+
+Multiple Functions
+-Use to prevent repetitive print statements
