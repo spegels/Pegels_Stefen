@@ -4,4 +4,4 @@ def circArea(area):
     area=float("{:.5f}".format(area))
     return(area)
 
-print("The area of a cirlc with radius",r,"is",circArea(area))
+print("The area of a circle with radius",r,"is",circArea(area))
