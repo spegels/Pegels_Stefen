@@ -3,7 +3,10 @@ w=float(input("Enter width of recangle in feet:"))
 def calcPerim():
     global p
     p=float("{:.5f}".format(2*l+2*w))
-    
-calcPerim()  
-print("Your rectangle is",p,"ft around.")
+def prnt():
+    print("Your rectangle is",p,"ft around.")
+calcPerim()
+prnt()
+
+
 
