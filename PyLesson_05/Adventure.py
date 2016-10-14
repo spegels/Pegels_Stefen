@@ -1,4 +1,4 @@
-choice1 = input("You are exporing the wilderness when you come upon a crashed plane. Do you investigate?")
+choice1 = input("You are exporing the wilderness when you come upon a crashed plane. Do you investigate?(yes or no)")
 if choice1 == "yes":
     choice2 = input("Where do you enter the airplane: front, back, or side?")
     if choice2 == "front":
