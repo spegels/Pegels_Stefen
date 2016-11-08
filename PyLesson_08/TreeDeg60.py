@@ -3,9 +3,13 @@ stop = len(word)
 start = 0 
 
 def tree(word, start, stop):
-    if start <= stop:
+    if start < stop:
+        start += 1
         print(word[0:start])
-        start = start + 1
         return tree(word, start, stop)
+    else:
+        word = ""
+        return word
+
 
 print(tree(word, start, stop))
