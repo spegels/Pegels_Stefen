@@ -6,25 +6,28 @@ eq = exp.split(" ")
 while i < len(eq):
     if i < len(eq) and (eq[i] == "*" or eq[i] == "/"):
         if eq[i] == "*":
-            eq[i] = (int(eq[i-1]) * int(eq[i+1]))
+            eq[i] = int(eq[i-1]) * int(eq[i+1])
         else:
             eq[i] = (int(eq[i-1]) / int(eq[i+1]))
         eq.pop(i-1)
         eq.pop(i)
-    i +=1
+    else:
+        i +=1
 
     
+j = 0
 
-
-while i < len(eq):
-    if i < len(eq) and (eq[i] == "+" or eq[i] == "-"):
-        if eq[i] == "+":
-            eq[i] = (int(eq[i-1]) + int(equ[i+1]))
+while j < len(eq):
+    if j < len(eq) and (eq[j] == "+" or eq[j] == "-"):
+        if eq[j] == "+":
+            eq[j] = (int(eq[j-1]) + int(eq[j+1]))
         else:
-            eq[i] = (int(eq[i-1]) - int(equ[i+1]))
-        eq.pop(i-1)
-        eq.pop(i)
-    i +=1
+            eq[j] = (int(eq[j-1]) - int(eq[j+1]))
+        eq.pop(j-1)
+        eq.pop(j)
+    else: 
+        j +=1
+        
 
 
 
