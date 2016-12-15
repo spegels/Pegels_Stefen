@@ -12,6 +12,7 @@ for i in range(0,4):
     wordslist.append([])
     for j in range(0,4):
         wordslist[i].append(splist[spot])
-        output += str(wordslist[i][j]) + " "
-        spot +=1
-    print(output)
+        output += str(wordslist[i][j]) + "\t"
+        if len(splist) > spot:
+            spot +=1
+    print(output + "\n")
