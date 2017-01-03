@@ -1,4 +1,4 @@
-go = input("Enter string: ")
+go = input("Enter 16 strings: ")
 
 splist = go.split(" ")
 
