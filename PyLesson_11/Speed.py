@@ -32,12 +32,12 @@ def main():
     mph1 = MilesPerHour(d , hr, mmin)
 
     print("<<<<<<<<<<RESULTS>>>>>>>>>>")
-    print(mph1.getDistance(),"miles in", mph1.getHours(),"hours =",mph1.getMph(), "mph.")
+    print(mph1.getDistance(),"miles in", mph1.getHours(),"hours = {:<.3f}".format(mph1.getMph()), "mph.")
 
     mph1.sset(10,2,25)
 
     print("<<<<<<<<<<RESULTS>>>>>>>>>>")
-    print(mph1.getDistance(),"miles in", mph1.getHours(),"hours =",mph1.getMph(), "mph.")
+    print(mph1.getDistance(),"miles in", mph1.getHours(),"hours = {:<.3f}".format(mph1.getMph()), "mph.")
 
     
 main()
