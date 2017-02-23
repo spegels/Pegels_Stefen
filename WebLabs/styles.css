@@ -1,0 +1,35 @@
+h1 {
+		background-color: gray;
+		text-align:center;
+		font-family:Comic Sans MS;
+		color: blue;
+		
+		border-color: blue;
+		border-style: dashed solid dashed solid;
+		border-top-width: 5px;
+		border-bottom-width: 2px;
+		border-left-width: 1px;
+		border-right-width: 1px;
+	}
+	
+	p:first-letter{
+		font-weight: bold;
+		font-size: 35px;
+	}
+	p:first-line{
+		font-size: 20px;
+	}
+	p {
+		color: white;
+		background-color: gray;
+		border: 2px dotted blue;
+		padding: 10px;
+		margin:50px;
+		width: 60%;
+	}
+	
+	a{background-color:gray;}
+	a{color:white;}
+	a:hover{color: black;}
+	a:visited{color:green;}
+	a:active{background-color:red;}
