@@ -27,9 +27,24 @@ h1 {
 		margin:50px;
 		width: 60%;
 	}
+p:not(.lab_09){
+	color:orange;
 	
+}
 	a{background-color:gray;}
 	a{color:white;}
 	a:hover{color: black;}
 	a:visited{color:green;}
 	a:active{background-color:red;}
+tr:nth-child(odd) > td:nth-child(even){
+	background-color:blue;
+}
+tr:nth-child(odd) > td:nth-child(odd){
+	background-color:black;
+}
+tr:nth-child(even) > td:nth-child(odd){
+	background-color:blue;
+}
+tr:nth-child(even) > td:nth-child(even){
+	background-color:black;
+}
