@@ -64,3 +64,14 @@ body {
 		border: 2px solid black;
 		
 }
+
+article {
+		background: gray;
+		border: 1px solid blue;
+		padding: 20px;
+		margin-bottom: 10px;
+}
+
+article > footer{
+		text-align: right;
+}
