@@ -26,14 +26,13 @@ body {
 		text-align: left;
 }
 #topheader {
-		background: blue;
+		background: -webkit-radial-gradient(center, circle, blue 5%, aquamarine 80%);
 		border: 1px solid white;
 		padding: 20px;
 }
  
 #topMenu {
 		background: green;
-		text-color:gray;
 }
 
 #topMenu li {
@@ -41,8 +40,14 @@ body {
 		list-style: none;
 		padding: 5px;
 		font: bold 14px Tahoma;
+		-webkit-border-radius: 3px;
+		background-color: palegreen;
+		-webkit-transition: -webkit-transform 0.2s;
 }
 
+#topMenu li:hover{
+	-webkit-transform: scale(1.2, 1.2);
+}
 #mainSection {
 	float: left;
 	width: 660px;
@@ -57,12 +62,20 @@ body {
 		background: #acb4c1; 
 }
 
+#sideNews:hover{
+	-webkit-transform: translate(0px, 450px);
+	-webkit-transition: -webkit-transform 6s;
+}
 #thepagefooter {
 		clear: both;
 		text-align: center;
 		padding: 30px;
 		border: 2px solid black;
-		
+		background: -webkit-linear-gradient(45deg, darkblue, white);
+}
+
+#thepagefooter:hover{
+	-webkit-transform: rotate(180deg);
 }
 
 article {
@@ -74,4 +87,17 @@ article {
 
 article > footer{
 		text-align: right;
+}
+
+#soap:hover{
+	-webkit-transform: rotate(45deg);
+}
+
+#urinal:hover{
+	-webkit-transform: rotate(180deg) scale(0.0001);
+	-webkit-transition: -webkit-transform 2s;
+}
+
+#towel:hover{
+	-webkit-transform: skew(45deg);
 }
